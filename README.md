@@ -1,23 +1,8 @@
-# GroupProject1
+# CineMemes
 
 # MVP
 
-#### General Idea
-To help movie lovers learn discover the top memes to their favorite movies. 
+#### 2019
 
-#### Target Audience
-People who want to be a part of their favorite movie.
-
-#### Primary Problem
-Users want to connect with other viewers regarding their favorite movies and embrace different moments, emotions, and 
-contextual interpretation. 
-
-#### Primary Goal
-Allow users to establish a deeper connection with the movies they love and help connect the communities that build around specific films.
-
-#### Identify and Prioritize User Stories
- 
- As a _____, I want, ______ so that I can _________.\
- As a movie lover, I want to search for the movies I like, so I can learn more about them and travel to the places it was filmed.\
- As the official leader of the Lord of the Rings Club, I want to know where Middle Earth is so I can go there.
+#### A website that will allow users to establish a deeper connection with the movies they love and help connect the communities that build around specific films. Using Express to pull from multiple API's determined by the users search. Provides information from movie sites and related memes from Reddit.
  
