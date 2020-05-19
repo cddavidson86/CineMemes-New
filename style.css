@@ -1,0 +1,382 @@
+body {
+  font-family: 'Noto Sans HK', sans-serif;
+  width: 100%;
+  background: url(images/dark\ blue\ background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+#main-body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.poster-style {
+  margin: 10px 0;
+}
+
+.container-movie-page {
+    -webkit-box-shadow: 0 0 5px 2px #fff;
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0 0 5px 2px #fff;
+    margin-top: 90px;
+  background: rgba(0, 0, 0, 0.3);
+  width: 90%;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.navbar {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  background-color: pink;
+}
+
+.brand {
+  height: 150px;
+  width: 100px;
+  float: left;
+  background-color: yellow;
+}
+
+.searchcollapse {
+  height: 150px;
+  width: 50px;
+  float: right;
+  background-color: purple;
+}
+
+.main-body {
+  height: 400px;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.subbutton {
+  float: right;
+}
+
+.topsuggestion {
+  height: 50px;
+  margin-top: 100px;
+  color: black;
+}
+
+#searchinput {
+  float: right;
+  width: 300px;
+  margin-top: 10px;
+}
+
+#search-content-div {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#search-field {
+    border-radius: 5px;
+    margin-right: 4px;
+  }
+
+#brandcontainer {
+  width: 200px;
+  height: 55px;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#brandcontainer {
+  width: 200px;
+  height: 55px;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#brandcontainer {
+  width: 200px;
+  height: 55px;
+  float: left;
+  padding-top: 8px;
+  background: black;
+  border-radius: 25px;
+}
+
+.ml11 {
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  /* background-color: #fff; */
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.topsuggestion {
+  /* background: black; */
+  /* border-radius: 25px;
+  width: 525px;
+  height: 100; */
+  /* text-align: center; */
+  padding-left: 40px;
+  color: white;
+}
+.movieposters {
+  display: flex;
+  justify-content: space-between;
+}
+
+#movieposter1 {
+  height: 250px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#movieposter2 {
+  height: 250px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#movieposter3 {
+  height: 250px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#movieposter4 {
+  height: 250px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.suggestiontitles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* #suggestiontitle1 {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#suggestiontitle2 {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#suggestiontitle3 {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#suggestiontitle4 {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+} */
+
+h1 {
+  text-align: center;
+}
+
+.middle-box {
+  /* border-color: black; */
+  border-width: 2px;
+  border-style: solid;
+  height: 400px;
+}
+
+.header-space {
+  margin-top: 20px;
+  padding-left: 5%;
+  padding-top: 15px;
+}
+
+/* Results Page Start */
+#movie-row {
+      padding: 10px 0px 40px;
+}
+
+#results-row {
+  margin-top: 20px;
+  padding: 10px 0px;
+}
+
+#reddit-results-row {
+    /* background: rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 5px 1px #fff;
+    -moz-box-shadow: 0 0 5px 1px #fff;
+    box-shadow: 0 0 5px 1px #fff; */
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    /* border-color: white; */
+    /* border-style: solid; */
+    border-width: 1px;
+}
+
+.reddit-img {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+  width: 100%;
+  height: 300px;
+  min-width: 400px;
+  border-radius: 10px;
+  /* box-shadow: 1px 1px 1px 2px gray; */
+  margin-left: 25%;
+}
+
+.reddit-result-col {
+  width: 580px;
+  margin: 10px;
+}
+
+.post-tag {
+  width: 500px;
+  margin: 10px 10px 10px 15%;
+  color: white;
+  /* border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px; */
+}
+
+#movie-poster {
+    margin: 10px 10px 10px 40px;
+}
+
+/* Search Page Start */
+.search-result-container {
+  background: rgba(0, 0, 0, 0.6);
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+#search-header {
+  padding-top: 10px;
+}
+
+.ml16 {
+  color: white;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#search-content-div {
+  color: white;
+  margin-left: 90px;
+  margin-top: 34px;
+}
+
+.search-result:hover {
+  color: #ccc;
+}
+#title-image {
+    /* box-shadow: 1px 1px 1px 2px blue; */
+    width: 300px;
+    height: 50px;
+    color: white;
+}
+
+header {
+    z-index: 1;
+    overflow: hidden;
+    background-color: black; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* THE CSS FOR THE TOASTER BUTTON */
+#toast{
+    position:fixed;
+    top:0;
+    left:50%;
+    transform:translate(-50%);
+    background-color:navy;
+    color:#fff;
+    padding:16px;
+    border-radius:4px;
+    text-align:center;
+    z-index:1;
+    box-shadow:0 0 20px white;
+    visibility:hidden;
+    opacity:0;
+  }
+  
+  #toast.show{
+    visibility:visible;
+    animation:fadeInOut 3s;
+  }
+  
+  @keyframes fadeInOut{
+    5%,95%{opacity:1;top:50px}
+    15%,85%{opacity:1;top:30px}
+  }
+
+
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1209px;
+    }
+  }
